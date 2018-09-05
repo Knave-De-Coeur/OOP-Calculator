@@ -5,7 +5,6 @@
  * Date: 05/09/2018
  * Time: 11:49
  */
-include "includes/Calculation.inc.php";
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +26,7 @@ include "includes/Calculation.inc.php";
             <option value="multiply">Multiply</option>
             <option value="divide">Divide</option>
         </select>
-        <input type="submit" value="Calculate" />
+        <input type="submit" value="Calculate" name="submit"/>
     </form>
 </body>
 </html>
